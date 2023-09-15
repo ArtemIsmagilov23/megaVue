@@ -1,5 +1,7 @@
 <script>
-
+function grob(){
+alert("123")
+}
 export default {
     methods:{
 newMoney(){
@@ -19,7 +21,7 @@ this.$store.state.money - this.$store.state.price
     <h2 class="priceOneBoot">{{ $store.state.price }} <sup>rub</sup></h2>
     
 </div>
-<button @click="newMoney">dfgdfgfd</button>
+<button @click="grob">dfgdfgfd</button>
  
 </template>
 

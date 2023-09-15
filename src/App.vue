@@ -4,7 +4,9 @@ import counter from './counter.vue';
 import products from './products.vue';
 
 console.log()
-
+let grov = () =>{
+alert('123')
+}
 
 let buyPaiment = () =>{
     let myMoney = $store.state.money
@@ -21,6 +23,7 @@ if(myMoney >= myPrice){
 
 <counter />
 <h2 class="money">balance: {{$store.state.money}}</h2>
+<button @click="grov">123</button>
 <button class="btnBuy" @click="buyPaiment">buy</button>
 <products />
  </div>
