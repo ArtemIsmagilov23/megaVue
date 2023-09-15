@@ -1,0 +1,14 @@
+*{
+font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.money{
+margin-left: 1650px;
+padding: 0;
+position: absolute;
+}
+.btn{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 1650px;
+    cursor: pointer;
+}
